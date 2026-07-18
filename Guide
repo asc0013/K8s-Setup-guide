@@ -1,0 +1,77 @@
+# K8s-Setup-guide
+This project demonstrates the setup of a Kubernetes cluster from scratch, including control plane and worker node configuration, etcd, kube-apiserver, networking, TLS certificates, and workload deployment. It highlights hands-on experience with Kubernetes architecture, Linux, troubleshooting, and cluster management.
+
+# ☸️ Kubernetes Setup Guide
+
+A comprehensive, beginner-friendly guide to understanding and configuring Kubernetes from the ground up. This repository covers Kubernetes architecture, core components, object management, networking, namespaces, deployments, and essential `kubectl` commands with practical examples.
+
+## 📖 Topics Covered
+
+* Kubernetes Architecture
+* ETCD
+* Kube API Server
+* Kube Controller Manager
+* Kube Scheduler
+* Kubelet
+* Kube Proxy
+* Pods
+* ReplicaSets & Replication Controllers
+* Deployments
+* Services (ClusterIP, NodePort, LoadBalancer)
+* Namespaces & Resource Quotas
+* Imperative vs Declarative Management
+* YAML Manifests
+* Kubectl Commands & Best Practices
+
+## 🛠️ Prerequisites
+
+* Basic Linux knowledge
+* Docker or a Container Runtime
+* Kubernetes Cluster (Minikube, kubeadm, Kind, or K3s)
+* kubectl CLI
+
+## 📂 Repository Structure
+
+```text
+├── Architecture
+├── ETCD
+├── API-Server
+├── Controller-Manager
+├── Scheduler
+├── Kubelet
+├── Kube-Proxy
+├── Pods
+├── ReplicaSets
+├── Deployments
+├── Services
+├── Namespaces
+├── YAML Examples
+└── Kubectl Commands
+```
+
+## 🚀 Learning Outcomes
+
+By working through this repository, you will learn to:
+
+* Understand Kubernetes architecture and its core components.
+* Deploy and manage Pods, ReplicaSets, and Deployments.
+* Configure Services for internal and external communication.
+* Organize workloads using Namespaces.
+* Manage Kubernetes resources declaratively with YAML.
+* Use `kubectl` efficiently for administration and troubleshooting.
+
+## 🎯 Who Is This For?
+
+* DevOps Engineers
+* Cloud Engineers
+* Kubernetes Beginners
+* Students preparing for CKA/CKAD
+* Anyone learning container orchestration
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request to improve the documentation or add new examples.
+
+## ⭐ Support
+
+If you found this repository helpful, consider giving it a ⭐ to support the project and help others discover it.
